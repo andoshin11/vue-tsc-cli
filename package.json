@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "andoshin11 <shinglish11@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.9",
+    "typescript": "^3.7.2"
+  }
 }

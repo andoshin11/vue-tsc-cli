@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es5",
+    "removeComments": true,
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "stripInternal": true,
+    "types": ["node"],
+    "strict": true,
+    "outDir": "lib"
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts"]
+}
