@@ -5,10 +5,17 @@
   "author": "andoshin11 <shinglish11@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc -w"
   },
   "devDependencies": {
+    "@types/glob": "^7.1.1",
     "@types/node": "^12.12.9",
     "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "glob": "^7.1.6",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
   }
 }
