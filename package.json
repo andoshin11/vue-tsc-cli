@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "glob": "^7.1.6",
-    "vue": "^2.6.10",
+    "vue": "^3.0.0",
     "vue-template-compiler": "^2.6.10"
   }
 }
